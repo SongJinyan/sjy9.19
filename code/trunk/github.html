@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引用放大镜样式 -->
+    <link rel="stylesheet" href="./css/magnifier.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css/github.css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <h1>
+                    <a href="#"><img src="../trunk/images/logo.jpg" alt=""></a>
+                </h1>
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="logintxtbox fr">
+                    欢迎光临<a href="#">乐购</a>，请<a href="#">登录</a>/<a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索区 -->
+        <div class="searchbox lg-container mt4 clearfix">
+            <div class="cartorder fr">
+                <a href="#" class="fl">购物车
+                    <i>3</i>
+                </a>
+                <a href="#" class="fl"> 我的订单</a>
+            </div>
+            <form action="#" class="fr">
+                <input type="text" name="" class="fl" placeholder="创意文具">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+        <nav class="lg-container">
+            <ul class="fr">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴童</a></li>
+                <li><a href="#">家具</a></li>
+                <li><a href="#">创意文具</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="githubbanner">
+        <div class="lg-container mt20">
+            <div class="top">
+                <a href="#" class="f24">图书</a>>
+                <a href="#">小说</a>>
+                <a href="#">情感/家庭/婚姻</a>>
+                <a href="#">博集天卷</a>>
+                <span>她和他</span>
+            </div>
+            <div class="bottom clearfix">
+                <div class="magnifier fl" id="magnifier1">
+                    <div class="magnifier-container">
+                        <div class="images-cover"></div>
+                        <!--当前图片显示容器-->
+                        <div class="move-view"></div>
+                        <!--跟随鼠标移动的盒子-->
+                    </div>
+                    <div class="magnifier-assembly">
+                        <div class="magnifier-btn">
+                            <span class="magnifier-btn-left">&lt;</span>
+                            <span class="magnifier-btn-right">&gt;</span>
+                        </div>
+                        <!--按钮组-->
+                        <div class="magnifier-line">
+                            <ul class="clearfix animation03">
+                                <li>
+                                    <div class="small-img">
+                                        <img src="./images/pro11.png" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="small-img">
+                                        <img src="./images/pro12.png" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--缩略图-->
+                    </div>
+                    <div class="magnifier-view"></div>
+                    <!--经过放大的图片显示容器-->
+                    <p class="tc c64 f16">商品编号：11950959</p>
+                </div>
+                <div class="detail fr">
+                    <div class="synopsis">
+                        <p class="f24 c34">
+                            她和他
+                        </p>
+                        <p class="f18 cr second">
+                            《偷影子的人》作者马克·李维重磅新作，法国连续60周在榜，销量突破120万册
+                        </p>
+                        <p class="f16 c81">
+                            [法] 马克·李维 著；杨亦雨 译
+                        </p>
+                    </div>
+                    <div class="price clearfix">
+                        <div class="f16 c6c">
+                            <p class="fl">
+                                乐 购 价：<span class="f30 cr">￥26.20</span>[6.9折] [定价：￥38.00] (降价通知)
+                            </p>
+                            <p class="mt20 fl">
+                                促销信息：<span class="cr">满减 每满150.00元，可减50.00元现金</span> <a href="#" class="c6c">详情 >></a>
+                            </p>
+                            <div class="pricediv tc fr f16">
+                                累计评价
+                                <p class="cf60 f18">
+                                    99999
+                                </p>
+                            </div>
+                        </div>
+                        <p class="f16 c80 ">
+                            领 券：<img src="./images/100_08.jpg" alt=""> <img src="./images/100_08.jpg" alt="">
+                        </p>
+                    </div>
+
+
+                    <div class="kind fr">
+                        <p class="f16 c4d fl">种类选择:</p>
+                        <div class="cur tc fl">平 装 版 <img src="./images/cpxz_03.jpg" alt=""></div>
+                        <div class="cur tc fl">精 装 版<img src="./images/cpxz_03.jpg" alt=""></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="./lib/jquery.js"></script>
+    <script src="./lib/magnifier(1).js"></script>
+    <script src="./js/github.js"></script>
+</body>
+
+</html>
